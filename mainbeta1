@@ -1,5 +1,6 @@
 --------skid đỡ của ah night----
 
+
 if game.PlaceId == 2753915549 then
     Sea1 = true
 elseif game.PlaceId == 4442272183 then
@@ -1604,6 +1605,23 @@ OrionLib:MakeNotification({
 	Time = 5
 })
 
+local I = Window:MakeTab({
+	Name = "Info",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = I:AddSection({
+    Name = "Info Owner"
+})
+
+I:AddLabel("Owner Name : !Fucker")
+I:AddLabel("Developer : Sfun , minhhau207")
+I:AddLabel("Brothers : ! Heiskso, Enverstツ, Xerolyx")
+I:AddLabel("Best Friend : ! NightX, phongngu_. , Nguyễn Đức, Tấn cục xúc")
+I:AddLabel("I From : VietNam")
+I:AddLabel("Status : Beta")
+
+
 local G = Window:MakeTab({
 	Name = "Main",
 	Icon = "rbxassetid://4483345998",
@@ -1669,7 +1687,7 @@ local S = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 local Section = G:AddSection({
     Name = "Setting Farm"
 })
